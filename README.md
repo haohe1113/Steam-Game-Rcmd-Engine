@@ -14,7 +14,7 @@ Steam is the world's most popular PC Gaming hub, with over 6,000 games and a com
 
 *Please click through the links above to see our code & analysis for each step.*  
 
-# Outcomes Display  
+# Outcome Display  
 ## 1. Collaborative Filtering  
 We explored user-based and game-based collaborative filtering algorithms for the recommendation engine.  
 **User-based collaborative filtering(UB-CF)** is based on an assumption that similar gamers have similar tastes in games. If gamer A and gamer B have played very similar games in the past and they rated games by very similar scores, UB-CF will recommend games that A enjoys playing recently to B. 
@@ -26,7 +26,7 @@ As you can see above, from the test run,  based on their gaming history, our eng
 ## 2. Matrix Factorization 
 In an effort to solve the problem of collaborative filtering algorithm, we turned our eyes to **Matrix Factorization** alogrithm which will work even if only a few games played is provided. Plus, matrix factorization has better computing efficiency than collaborative filtering. 
 Nevertheless, according to the reflections from our test users, their satisfaction level on matrix factorization based recommendation engine is lower than its collaborative filtering counterpart. It turns out that matrix factorization algorithm is prone to recommend generally popular games (like `Dota 2` in our dataset) when you keep adding gaming history as input.  
-[mf-rmcd](mf_rmcd.png)  
+![mf-rmcd](mf_rmcd.png)  
 As you can see here, while matrix factorization made it to recommend `Call of Duty: Modern Warfare 3` to me based on my short gaming history, it recommended `Dota 2` to both Justin and Manan, which according to the two gamers, looks like a less customized and thus less attractive recommendation than the previous ones made by collaborative filtering.  
 "It looks like an ad for everyone." Manan said after seeing the `Dota 2` recommendation made for him.  
 
