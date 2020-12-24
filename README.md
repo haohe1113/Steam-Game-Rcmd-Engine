@@ -13,7 +13,7 @@ Steam is the world's most popular PC Gaming hub, with over 6,000 games and a com
 * [Matrix Factorization to solve problems created by collaborative filtering.](rmcd_engines.ipynb)  
 
 *Please click through the links above to see our code & analysis for each step.*  
-
+*Full narration of our project (PowerPoint slides) could be found [here](https://github.com/haohe1113/Steam-Game-Rcmd-Engine/blob/master/Marketing_Project.pptx).  
 # Outcome Display  
 ## 1. Collaborative Filtering  
 We explored user-based and game-based collaborative filtering algorithms for the recommendation engine.  
