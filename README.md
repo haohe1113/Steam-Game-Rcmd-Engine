@@ -7,7 +7,7 @@ Steam is the world's most popular PC Gaming hub, with over 6,000 games and a com
 
 # Approch  
 * Exploratory Analysis: [MDS](https://github.com/haohe1113/Steam-Game-Rcmd-Engine/blob/master/Marketing_MDS_Data_Cleaning.ipynb) and [K-means](https://github.com/haohe1113/Steam-Game-Rcmd-Engine/blob/master/steam_market_segmentation.ipynb) to cluster/segment users and games into groups.  
-* Heuristics to segment customers using hours played as a metric for ratings:  
+* [Heuristics to segment customers using hours played as a metric for ratings:](rmcd_engines.ipynb##Collaborative-Filtering-Algorithms)  
     - User-based collaborative filtering.  
     - Game-based collaborative filtering.  
 * Matrix Factorization to solve problems created by collaborative filtering.
